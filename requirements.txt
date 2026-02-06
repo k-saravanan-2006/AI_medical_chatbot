@@ -1,6 +1,12 @@
-ctransformers==0.2.5
-sentence-transformers==2.2.2
+ctransformers
+sentence-transformers
 pinecone-client
 chromadb
-langchain==0.0.225
+langchain
 flask
+
+
+langchain-core 
+langchain-community 
+langchain-text-splitters 
+chromadb
