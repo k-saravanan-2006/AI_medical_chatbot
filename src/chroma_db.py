@@ -1,5 +1,5 @@
 from langchain_community.vectorstores import Chroma
-from helper import text_chunks,embeddings
+from src.helper import text_chunks, embeddings
 
 
 persist_directory = "db"   # local folder
