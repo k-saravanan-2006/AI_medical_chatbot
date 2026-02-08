@@ -12,6 +12,7 @@ def load_pdf(data):
     documents = loader.load()
 
     return documents
+extracted_data = load_pdf("data/")
 
 
 #Create text chunks
@@ -20,9 +21,11 @@ def text_split(extracted_data):
     text_chunks = text_splitter.split_documents(extracted_data)
 
     return text_chunks
+text_chunks = text_split(extracted_data)
 
 
 #download embedding model
 def download_Fast_Embed_Embeddings():
     embeddings = FastEmbedEmbeddings(model_name="BAAI/bge-small-en-v1.5")
     return embeddings
+embeddings = download_Fast_Embed_Embeddings()
