@@ -10,3 +10,5 @@ langchain-core
 langchain-community 
 langchain-text-splitters 
 chromadb
+
+-e .
